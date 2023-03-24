@@ -12,11 +12,11 @@
   
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/blog.html">Blog</a></li>
-          <li></li>
+      <nav id="nav-bar">
+        <ul id="nav-list">
+          <li id="nav-list-item"><a href="/index.html">Home</a></li>
+          <li id="nav-list-item"><a href="/blog.html">Blog</a></li>
+          <li><a href="/sign-in.html">Account</a></li>
           <li></li>
         </ul>
       </nav>
@@ -24,13 +24,20 @@
 
     <main>
         <form>
-            <input type="text" id="entry">
-            <label for="entry">Blog Entry</label>
+            <textarea name="blog-entry" id="blog-entry" rows="10" cols="50"></textarea>
+            <label for="blog-entry">Blog Entry</label>
+            <button type="submit">Submit</button>
         </form>
     </main>
 
     
-    <footer></footer>
+    <footer>
+      <ul>
+        <li><a href="youtube.com/adriennealyse" target="_blank">Youtube</a></li>
+        <li><a href="instagram.com/adriennealyse" target="_blank">Instagram</a></li>
+        <li><a href="pinterest.com/byadriennealyse" target="_blank">Pinterest</a></li>
+      </ul>
+    </footer>
 
     <script src="script.js"></script>
   </body>

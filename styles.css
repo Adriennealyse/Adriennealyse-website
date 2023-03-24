@@ -1,3 +1,51 @@
+* {
+    padding: inherit;
+    margin: auto;
+
+}
+
+
+/* body {
+    max-width: 500px;
+    margin: auto;
+
+} */
+
+/* main {
+    align-items: center;
+} */
+
 ul {
     list-style: none;
 }
+
+#nav-bar {
+    background-color: black;
+
+}
+
+/* #nav-list {
+    align-items: center;
+    text-align: center;
+} */
+
+#nav-list-item {
+    float: left;
+    margin-right: 1em;
+}
+
+/* #projects {
+    align-items: center;
+    
+} */
+
+#youtube-items {
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+footer {
+    background-color: lavender;
+}
+
